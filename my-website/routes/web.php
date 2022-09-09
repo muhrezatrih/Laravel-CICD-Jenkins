@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/apple', function () {
-    return view('appleHomepage');
+Route::get('/gunadarma', function () {
+    return view('gunadarma');
 });
